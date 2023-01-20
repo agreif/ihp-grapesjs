@@ -16,29 +16,30 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
     <meta charset="utf-8">
     <title>GrapesJS Demo - Free Open Source Website Page Builder</title>
     <meta content="Best Free Open Source Responsive Websites Builder" name="description">
+
     <link rel="stylesheet" href="grapesjs/stylesheets/toastr.min.css">
     <link rel="stylesheet" href="grapesjs/stylesheets/grapes.min.css?v0.20.3">
     <link rel="stylesheet" href="grapesjs/stylesheets/grapesjs-preset-webpage.min.css">
     <link rel="stylesheet" href="grapesjs/stylesheets/tooltip.css">
     <link rel="stylesheet" href="grapesjs/stylesheets/demos.css?v3">
-    <link href="https://unpkg.com/grapick/dist/grapick.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="grapesjs/stylesheets/grapick.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="grapesjs/js/jquery.min.js"></script>
     <script src="grapesjs/js/toastr.min.js"></script>
     <script src="grapesjs/js/grapes.min.js?v0.20.3"></script>
-    <script src="https://unpkg.com/grapesjs-preset-webpage@1.0.2"></script>
-    <script src="https://unpkg.com/grapesjs-blocks-basic@1.0.1"></script>
-    <script src="https://unpkg.com/grapesjs-plugin-forms@2.0.5"></script>
-    <script src="https://unpkg.com/grapesjs-component-countdown@1.0.1"></script>
-    <script src="https://unpkg.com/grapesjs-plugin-export@1.0.11"></script>
-    <script src="https://unpkg.com/grapesjs-tabs@1.0.6"></script>
-    <script src="https://unpkg.com/grapesjs-custom-code@1.0.1"></script>
-    <script src="https://unpkg.com/grapesjs-touch@0.1.1"></script>
-    <script src="https://unpkg.com/grapesjs-parser-postcss@1.0.1"></script>
-    <script src="https://unpkg.com/grapesjs-tooltip@0.1.7"></script>
-    <script src="https://unpkg.com/grapesjs-tui-image-editor@0.1.3"></script>
-    <script src="https://unpkg.com/grapesjs-typed@1.0.5"></script>
-    <script src="https://unpkg.com/grapesjs-style-bg@2.0.1"></script>
+    <script src="grapesjs/js/grapesjs-preset-webpage@1.0.2"></script>
+    <script src="grapesjs/js/grapesjs-blocks-basic@1.0.1"></script>
+    <script src="grapesjs/js/grapesjs-plugin-forms@2.0.5"></script>
+    <script src="grapesjs/js/grapesjs-component-countdown@1.0.1"></script>
+    <script src="grapesjs/js/grapesjs-plugin-export@1.0.11"></script>
+    <script src="grapesjs/js/grapesjs-tabs@1.0.6"></script>
+    <script src="grapesjs/js/grapesjs-custom-code@1.0.1"></script>
+    <script src="grapesjs/js/grapesjs-touch@0.1.1"></script>
+    <script src="grapesjs/js/grapesjs-parser-postcss@1.0.1"></script>
+    <script src="grapesjs/js/grapesjs-tooltip@0.1.7"></script>
+    <script src="grapesjs/js/grapesjs-tui-image-editor@0.1.3"></script>
+    <script src="grapesjs/js/grapesjs-typed@1.0.5"></script>
+    <script src="grapesjs/js/grapesjs-style-bg@2.0.1"></script>
 
     <style type="text/css">
         .icons-flex {
