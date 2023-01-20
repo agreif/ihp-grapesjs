@@ -8,4 +8,6 @@ data WebApplication = WebApplication deriving (Eq, Show)
 
 
 data StaticController = WelcomeAction deriving (Eq, Show, Data)
-data GrapesController = GrapesAction deriving (Eq, Show, Data)
+data GrapesController
+  = DemoAction
+  deriving (Eq, Show, Data)

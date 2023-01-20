@@ -1,11 +1,12 @@
 module Web.Controller.Grapes where
 
 import Web.Controller.Prelude
-import Web.View.Grapes.Index
 import Web.View.Layout
+
+import Web.View.Grapes.Demo
 
 instance Controller GrapesController where
   beforeAction = do
     setLayout grapesLayout
 
-  action GrapesAction = render IndexView
+  action demoAction = render DemoView
