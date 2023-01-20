@@ -6,11 +6,13 @@ import Web.View.Layout (defaultLayout)
 
 -- Controller Imports
 import Web.Controller.Static
+import Web.Controller.Grapes
 
 instance FrontController WebApplication where
-    controllers = 
+    controllers =
         [ startPage WelcomeAction
         -- Generator Marker
+        , parseRoute @GrapesController
         ]
 
 instance InitControllerContext WebApplication where
