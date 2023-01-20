@@ -366,7 +366,7 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
           color: #ffffff;
           font-family: Helvetica, serif;
           font-weight: 100;
-          background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+          background-image:url("./grapesjs/img/bg-gr-v1.png"), url("./grapesjs/img/work-desk1.jpg");
           background-attachment:scroll, scroll;
           background-position:left top, center center;
           background-repeat:repeat-y, no-repeat;
@@ -482,24 +482,24 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
         }
         .card-header{
           height: 155px;
-          background-image:url("https://via.placeholder.com/350x250/78c5d6/fff/image1.jpg");
+          background-image:url("./image1.jpg");
           background-size:cover;
           background-position:center center;
         }
         .card-header.ch2{
-          background-image:url("https://via.placeholder.com/350x250/459ba8/fff/image2.jpg");
+          background-image:url("./image2.jpg");
         }
         .card-header.ch3{
-          background-image:url("https://via.placeholder.com/350x250/79c267/fff/image3.jpg");
+          background-image:url("./image3.jpg");
         }
         .card-header.ch4{
-          background-image:url("https://via.placeholder.com/350x250/c5d647/fff/image4.jpg");
+          background-image:url("./image4.jpg");
         }
         .card-header.ch5{
-          background-image:url("https://via.placeholder.com/350x250/f28c33/fff/image5.jpg");
+          background-image:url("./image5.jpg");
         }
         .card-header.ch6{
-          background-image:url("https://via.placeholder.com/350x250/e868a2/fff/image6.jpg");
+          background-image:url("./image6.jpg");
         }
         .card-body{
           padding: 15px 15px 5px 15px;
@@ -845,7 +845,7 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
         }
         .badge-header{
           height: 115px;
-          background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+          background-image:url("./img/bg-gr-v.png"), url("./img/work-desk.jpg");
           background-position:left top, center center;
           background-attachment:scroll, fixed;
           overflow: hidden;
@@ -947,7 +947,7 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
 
     <script type="text/javascript">
       var lp = './img/';
-      var plp = 'https://via.placeholder.com/350x250/';
+      var plp = '';
       var images = [
         lp+'team1.jpg', lp+'team2.jpg', lp+'team3.jpg', plp+'78c5d6/fff/image1.jpg', plp+'459ba8/fff/image2.jpg', plp+'79c267/fff/image3.jpg',
         plp+'c5d647/fff/image4.jpg', plp+'f28c33/fff/image5.jpg', plp+'e868a2/fff/image6.jpg', plp+'cc4360/fff/image7.jpg',
@@ -1225,14 +1225,13 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
           'gjs-blocks-basic': { flexGrid: true },
           'grapesjs-tui-image-editor': {
             script: [
-              // 'https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.6.7/fabric.min.js',
-              'https://uicdn.toast.com/tui.code-snippet/v1.5.2/tui-code-snippet.min.js',
-              'https://uicdn.toast.com/tui-color-picker/v2.2.7/tui-color-picker.min.js',
-              'https://uicdn.toast.com/tui-image-editor/v3.15.2/tui-image-editor.min.js'
+              'grapesjs/js/tui-code-snippet.min.js',
+              'grapesjs/js/tui-color-picker.min.js',
+              'grapesjs/js/tui-image-editor.min.js'
             ],
             style: [
-              'https://uicdn.toast.com/tui-color-picker/v2.2.7/tui-color-picker.min.css',
-              'https://uicdn.toast.com/tui-image-editor/v3.15.2/tui-image-editor.min.css',
+              'grapesjs/stylesheets/tui-color-picker.min.css',
+              'grapesjs/stylesheets/tui-image-editor.min.css',
             ],
           },
           'grapesjs-tabs': {
@@ -1405,13 +1404,6 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
 
       });
 
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-74284223-1', 'auto');
-      ga('send', 'pageview');
     </script>
   </body>
 
