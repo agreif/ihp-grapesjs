@@ -366,7 +366,7 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
           color: #ffffff;
           font-family: Helvetica, serif;
           font-weight: 100;
-          background-image:url("./grapesjs/img/bg-gr-v1.png"), url("./grapesjs/img/work-desk1.jpg");
+          background-image:url("./grapesjs/img/bg-gr-v.png"), url("./grapesjs/img/work-desk.jpg");
           background-attachment:scroll, scroll;
           background-position:left top, center center;
           background-repeat:repeat-y, no-repeat;
@@ -482,24 +482,24 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
         }
         .card-header{
           height: 155px;
-          background-image:url("./image1.jpg");
+          background-image:url("./grapesjs/img/image1.jpg");
           background-size:cover;
           background-position:center center;
         }
         .card-header.ch2{
-          background-image:url("./image2.jpg");
+          background-image:url("./grapesjs/img/image2.jpg");
         }
         .card-header.ch3{
-          background-image:url("./image3.jpg");
+          background-image:url("./grapesjs/img/image3.jpg");
         }
         .card-header.ch4{
-          background-image:url("./image4.jpg");
+          background-image:url("./grapesjs/img/image4.jpg");
         }
         .card-header.ch5{
-          background-image:url("./image5.jpg");
+          background-image:url("./grapesjs/img/image5.jpg");
         }
         .card-header.ch6{
-          background-image:url("./image6.jpg");
+          background-image:url("./grapesjs/img/image6.jpg");
         }
         .card-body{
           padding: 15px 15px 5px 15px;
@@ -845,7 +845,7 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
         }
         .badge-header{
           height: 115px;
-          background-image:url("./img/bg-gr-v.png"), url("./img/work-desk.jpg");
+          background-image:url("./grapesjs/img/bg-gr-v.png"), url("./grapesjs/img/work-desk.jpg");
           background-position:left top, center center;
           background-attachment:scroll, fixed;
           overflow: hidden;
@@ -1259,6 +1259,24 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
             },
           },
         },
+
+        storageManager: {
+            type: 'remote', // Storage type. Available: local | remote
+            autosave: true, // Store data automatically
+            autoload: true, // Autoload stored data on init
+            stepsBeforeSave: 1, // If autosave is enabled, indicates how many changes are necessary before the store method is triggered
+
+            /*
+            options: {
+              local: {},
+              remote: {
+                urlStore: 'http://localhost:8000/store',
+                urlLoad: 'http://localhost:8000/load',
+              },
+            }
+            */
+        },
+
       });
 
       editor.I18n.addMessages({
