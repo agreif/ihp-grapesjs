@@ -6,7 +6,7 @@ module Web.View.Prelude
 , module Application.Helper.View
 ) where
 
-import IHP.ViewPrelude
+import IHP.ViewPrelude hiding (Page)
 import Web.View.Layout
 import Generated.Types
 import Web.Types

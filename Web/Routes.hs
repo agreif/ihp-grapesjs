@@ -7,3 +7,6 @@ import Web.Types
 -- Generator Marker
 instance AutoRoute StaticController
 instance AutoRoute GrapesController
+
+instance AutoRoute PagesController
+
