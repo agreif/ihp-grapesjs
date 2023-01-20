@@ -946,11 +946,11 @@ grapesLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
     </div>
 
     <script type="text/javascript">
-      var lp = './img/';
-      var plp = '';
+      var lp = './grapesjs/img/';
+      var plp = './grapesjs/img/';
       var images = [
-        lp+'team1.jpg', lp+'team2.jpg', lp+'team3.jpg', plp+'78c5d6/fff/image1.jpg', plp+'459ba8/fff/image2.jpg', plp+'79c267/fff/image3.jpg',
-        plp+'c5d647/fff/image4.jpg', plp+'f28c33/fff/image5.jpg', plp+'e868a2/fff/image6.jpg', plp+'cc4360/fff/image7.jpg',
+        lp+'team1.jpg', lp+'team2.jpg', lp+'team3.jpg', plp+'image1.jpg', plp+'image2.jpg', plp+'image3.jpg',
+        plp+'image4.jpg', plp+'image5.jpg', plp+'image6.jpg', plp+'image7.jpg',
         lp+'work-desk.jpg', lp+'phone-app.png', lp+'bg-gr-v.png'
       ];
 
