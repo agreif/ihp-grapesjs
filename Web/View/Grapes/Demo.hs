@@ -5,7 +5,8 @@ import Web.View.Prelude
 data DemoView = DemoView
 
 instance View DemoView where
-    html DemoView = [hsx|
+  html DemoView =
+    [hsx|
   <head>
     <meta charset="utf-8">
     <title>GrapesJS Demo - Free Open Source Website Page Builder</title>
