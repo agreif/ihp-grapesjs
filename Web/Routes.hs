@@ -8,5 +8,3 @@ import Web.Types
 instance AutoRoute StaticController
 instance AutoRoute GrapesController
 
-instance AutoRoute PagesController
-

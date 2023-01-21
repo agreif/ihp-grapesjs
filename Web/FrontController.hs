@@ -5,7 +5,6 @@ import Web.Controller.Prelude
 import Web.View.Layout (defaultLayout)
 
 -- Controller Imports
-import Web.Controller.Pages
 import Web.Controller.Static
 import Web.Controller.Grapes
 
@@ -13,7 +12,6 @@ instance FrontController WebApplication where
     controllers =
         [ startPage WelcomeAction
         -- Generator Marker
-        , parseRoute @PagesController
         , parseRoute @GrapesController
         ]
 
