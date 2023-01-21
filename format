@@ -1,0 +1,5 @@
+ormolu -o -XOverloadedRecordDot -m inplace \
+       $(find . \
+	      -type f \
+	      -name "*.hs" \
+       )
